@@ -1,0 +1,16 @@
+SensorLuminosidade{
+    id:{
+        type: Number,
+        required: true
+    },
+    data:[{
+        luminosidade_sensor:{ //1->Com luminosidade 0->sem luminosidade
+            type: Bool,
+            required: true
+        },
+        horario:{
+            type: Date,
+            required: true
+        }
+    }]
+}

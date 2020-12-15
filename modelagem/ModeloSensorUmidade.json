@@ -1,0 +1,16 @@
+SensorUmidade{
+    id:{
+        type: Number,
+        required: true
+    },
+    data:[{
+        umidade_sensor:{
+        type: Number,
+        required: true
+        },
+        horario:{
+            type: Date,
+            required: true
+        }
+    }]
+}

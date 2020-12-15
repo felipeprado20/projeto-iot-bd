@@ -1,0 +1,16 @@
+SensorTemperatura{
+    id:{
+        type: Number,
+        required: true
+    },
+    data:[{
+        temperatura_sensor:{
+            type: Number,
+            required: true
+        },
+        horario:{
+            type: Date,
+            required: true
+        }
+    }]
+}

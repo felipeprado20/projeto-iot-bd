@@ -1,0 +1,16 @@
+SensorMovimento{
+    id:{
+        type: Number,
+        required: true
+    },
+    data:[{
+        movimento_sensor:{ // 1 -> com movimento 0 -> sem movimento
+            type: Bool,
+            required: true
+        },
+        horario:{
+            type: Date,
+            required: true
+        }
+    }]
+}
